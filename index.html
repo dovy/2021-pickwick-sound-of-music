@@ -47,7 +47,7 @@
 
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf';
+var url = 'https://raw.githubusercontent.com/dovy/2021-pickwick-sound-of-music/main/Sound%20of%20Music%20Program%20FINAL.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -59,7 +59,7 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.8,
+    scale = 1,
     canvas = document.getElementById('the-canvas'),
     ctx = canvas.getContext('2d');
 
